@@ -1,35 +1,35 @@
-import { Code, LineChart, Globe2, Shield, Bot, Layers } from 'lucide-react'
+import { Search, PenLine, Megaphone, Settings, Globe2, LineChart } from 'lucide-react'
 
 const services = [
   {
-    icon: Code,
-    title: 'Custom Software',
-    desc: 'End-to-end product engineering across web, mobile, and cloud.'
+    icon: Search,
+    title: 'SEO',
+    desc: 'Technical audits, on-page optimization, schema, and link strategy to rank and convert.'
   },
   {
-    icon: Layers,
-    title: 'SaaS Development',
-    desc: 'From MVP to scale: multi-tenant architecture, billing, and ops.'
+    icon: PenLine,
+    title: 'Content Creation',
+    desc: 'Research-backed articles, landing pages, video scripts, and social content tailored to your ICP.'
   },
   {
-    icon: LineChart,
-    title: 'Growth Marketing',
-    desc: 'Performance campaigns, SEO, and CRO tuned for ROI.'
+    icon: Megaphone,
+    title: 'Digital Marketing',
+    desc: 'Full-funnel growth: paid media, email, lifecycle, and remarketing tuned for ROI.'
+  },
+  {
+    icon: Settings,
+    title: 'Platform Management',
+    desc: 'End-to-end channel ops: websites, CMS, ecommerce, analytics, and marketing platforms.'
   },
   {
     icon: Globe2,
     title: 'Web Experiences',
-    desc: 'Brand websites and headless CMS with blazing performance.'
+    desc: 'High-performance sites and landing pages with modern UX, accessibility, and SEO foundations.'
   },
   {
-    icon: Shield,
-    title: 'Security & DevOps',
-    desc: 'CI/CD, observability, and hardening for serious reliability.'
-  },
-  {
-    icon: Bot,
-    title: 'AI & Automation',
-    desc: 'Integrations, agents, and pipelines that unlock leverage.'
+    icon: LineChart,
+    title: 'Analytics & CRO',
+    desc: 'Tracking, dashboards, and experimentation frameworks to turn insights into growth.'
   }
 ]
 
@@ -39,7 +39,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">What we do</h2>
-          <p className="mt-3 text-gray-600">Full-service capabilities to take you from zero to one, then one to many.</p>
+          <p className="mt-3 text-gray-600">Marketing and platform services that drive measurable growth and durable brand equity.</p>
         </div>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
